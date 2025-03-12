@@ -98,6 +98,7 @@ public class streamAPI {
 
         Set<Integer> k=Arrays.stream(values).filter(i-> !hs.add(i)).collect(Collectors.toSet());
         System.out.println(k);
+        List<Integer> nums=Arrays.asList(1,2,3,4,5);
     }
 
 
